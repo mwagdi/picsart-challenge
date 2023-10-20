@@ -21,7 +21,8 @@
   },
   "plugins": [
     "react",
-    "@typescript-eslint"
+    "@typescript-eslint",
+    "simple-import-sort"
   ],
   "settings": {
     "react": {
@@ -30,7 +31,6 @@
   },
   "rules": {
     "prefer-arrow-callback": "error",
-    "comma-dangle": "error",
     "semi": "error",
     "quotes": ["error", "single"],
     "object-curly-spacing": ["error", "always"],
@@ -40,5 +40,13 @@
     "no-multiple-empty-lines": "error",
     "multiline-ternary": ["error", "always"],
     "no-console": "warn"
-  }
+  },
+  "overrides": [
+    {
+      "files": ["*.jsx", "*.tsx"],
+      "rules": {
+        "react/react-in-jsx-scope": "off"
+      }
+    }
+  ]
 }
