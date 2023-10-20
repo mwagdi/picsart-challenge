@@ -1,10 +1,13 @@
 import CopyWebpackPlugin from 'copy-webpack-plugin';
 import path from 'path';
 import { Configuration } from 'webpack';
+import { CleanWebpackPlugin } from 'clean-webpack-plugin';
+import { WebpackManifestPlugin } from 'webpack-manifest-plugin';
 
 const config: Configuration = {
+  name: 'client',
   mode: (process.env.NODE_ENV as 'production' | 'development' | undefined) ?? 'development',
-  entry: './src/entrypoint.tsx',
+  entry: './client/index.tsx',
   module: {
     rules: [
       {
@@ -21,14 +24,18 @@ const config: Configuration = {
   resolve: {
     extensions: ['.tsx', '.ts', '.js'],
   },
+  target: 'web',
   output: {
-    filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist'),
+    filename: '[name].[contenthash].js',
+    path: path.resolve(__dirname, '../dist/static'),
+    publicPath: '',
   },
   plugins: [
-    new CopyWebpackPlugin({
-      patterns: [{ from: 'public' }],
-    }),
+    // new CopyWebpackPlugin({
+    //   patterns: [{ from: 'public' }],
+    // }),
+    new CleanWebpackPlugin(),
+    new WebpackManifestPlugin({}),
   ],
 };
 

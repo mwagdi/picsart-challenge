@@ -1,7 +1,7 @@
 const App = () => (
   <main>
     <p>App</p>
-    <a>klksl</a>
+    <a>Hello</a>
   </main>
 );
 
