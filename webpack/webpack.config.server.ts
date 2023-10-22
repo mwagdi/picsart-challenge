@@ -13,7 +13,7 @@ const config: Configuration = {
     filename: '[name].js',
   },
   resolve: {
-    extensions: ['.ts', '.tsx'],
+    extensions: ['.ts', '.tsx', '.js'],
     alias: {
       '@client': path.resolve(__dirname, '../client'),
     },

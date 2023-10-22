@@ -1,7 +1,7 @@
-import Home from '@client/components/Home';
 import express from 'express';
 import fs from 'fs';
-import { renderToString } from 'react-dom/server';
+
+import { htmlTemplate } from './htmlTemplate';
 
 const app = express();
 
@@ -11,19 +11,7 @@ const manifest = fs.readFileSync('public/manifest.json', 'utf-8');
 const assets = JSON.parse(manifest);
 
 app.get('/', (req, res) => {
-  const content = renderToString(<Home />);
-
-  const html = `
-        <html>
-            <head></head>
-            <body>
-                <div id="root">${content}</div>
-                <script src="${assets['main.js']}"></script>
-            </body>
-        </html>
-    `;
-
-  res.send(html);
+  res.send(htmlTemplate(assets));
 });
 
 app.listen(3000, () => {
