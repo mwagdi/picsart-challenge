@@ -1,7 +1,7 @@
-import CopyWebpackPlugin from 'copy-webpack-plugin';
+import { CleanWebpackPlugin } from 'clean-webpack-plugin';
+// import CopyWebpackPlugin from 'copy-webpack-plugin';
 import path from 'path';
 import { Configuration } from 'webpack';
-import { CleanWebpackPlugin } from 'clean-webpack-plugin';
 import { WebpackManifestPlugin } from 'webpack-manifest-plugin';
 
 const config: Configuration = {
@@ -27,7 +27,7 @@ const config: Configuration = {
   target: 'web',
   output: {
     filename: '[name].[contenthash].js',
-    path: path.resolve(__dirname, '../dist/static'),
+    path: path.resolve(__dirname, '../public'),
     publicPath: '',
   },
   plugins: [

@@ -38,7 +38,6 @@
     "simple-import-sort/exports": "error",
     "max-statements-per-line": ["error", { "max": 1 }],
     "no-multiple-empty-lines": "error",
-    "multiline-ternary": ["error", "always"],
     "no-console": "warn"
   },
   "overrides": [

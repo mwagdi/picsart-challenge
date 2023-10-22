@@ -1,4 +1,3 @@
-import CopyWebpackPlugin from 'copy-webpack-plugin';
 import path from 'path';
 import { Configuration } from 'webpack';
 import nodeExternals from 'webpack-node-externals';
@@ -15,6 +14,9 @@ const config: Configuration = {
   },
   resolve: {
     extensions: ['.ts', '.tsx'],
+    alias: {
+      '@client': path.resolve(__dirname, '../client'),
+    },
   },
   externals: [nodeExternals()],
   target: 'node',
@@ -32,11 +34,6 @@ const config: Configuration = {
       },
     ],
   },
-  plugins: [
-    new CopyWebpackPlugin({
-      patterns: [{ context: 'server', from: 'views', to: 'views' }],
-    }),
-  ],
 };
 
 export default config;

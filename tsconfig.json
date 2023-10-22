@@ -9,7 +9,10 @@
     "skipLibCheck": true /* Skip type checking all .d.ts files. */,
     "outDir": "dist",
     "moduleResolution": "node",
-    "module": "commonjs"
+    "module": "commonjs",
+    "paths": {
+      "@client/*": ["./client/*"]
+    }
   },
   "include": ["**/*.ts", "**/*.tsx"]
 }
