@@ -10,8 +10,8 @@ app.use(express.static('public'));
 const manifest = fs.readFileSync('public/manifest.json', 'utf-8');
 const assets = JSON.parse(manifest);
 
-app.get('/', (req, res) => {
-  res.send(htmlTemplate(assets));
+app.get('*', (req, res) => {
+  res.send(htmlTemplate(assets, req.url));
 });
 
 app.listen(3000, () => {

@@ -1,5 +1,4 @@
 import { CleanWebpackPlugin } from 'clean-webpack-plugin';
-// import CopyWebpackPlugin from 'copy-webpack-plugin';
 import path from 'path';
 import { Configuration } from 'webpack';
 import { WebpackManifestPlugin } from 'webpack-manifest-plugin';
@@ -30,13 +29,7 @@ const config: Configuration = {
     path: path.resolve(__dirname, '../public'),
     publicPath: '',
   },
-  plugins: [
-    // new CopyWebpackPlugin({
-    //   patterns: [{ from: 'public' }],
-    // }),
-    new CleanWebpackPlugin(),
-    new WebpackManifestPlugin({}),
-  ],
+  plugins: [new CleanWebpackPlugin(), new WebpackManifestPlugin({})],
 };
 
 export default config;

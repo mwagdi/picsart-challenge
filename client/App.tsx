@@ -1,24 +1,15 @@
-import { useEffect, useState } from 'react';
+import { Route, Routes } from 'react-router';
 
-const App = () => {
-  const [counter, setCounter] = useState(0);
-  const [isClient, setIsClient] = useState(false);
-  const handleClick = () => {
-    console.log(counter);
-    setCounter(counter + 1);
-  };
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
-  return (
-    <main>
-      <p>App</p>
-      <p>{isClient ? 'Is Client' : 'Is Server'}</p>
-      <a>Hello</a>
-      <button onClick={handleClick}>Increment</button>
-      <p>{counter}</p>
-    </main>
-  );
-};
+import Home from './pages/Home/Home';
+import UserDetails from './pages/UserDetails/UserDetails';
+import UserList from './pages/UserList/UserList';
+
+const App = () => (
+  <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="/users" element={<UserList />} />
+    <Route path="/users/:id" element={<UserDetails />} />
+  </Routes>
+);
 
 export default App;

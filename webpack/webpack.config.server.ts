@@ -5,7 +5,7 @@ import nodeExternals from 'webpack-node-externals';
 const config: Configuration = {
   name: 'server',
   entry: {
-    server: './server/index.tsx',
+    server: './server/index.ts',
   },
   mode: (process.env.NODE_ENV as 'production' | 'development' | undefined) ?? 'development',
   output: {
