@@ -14,27 +14,20 @@ app.use(express.static('public'));
 const manifest = fs.readFileSync('public/manifest.json', 'utf-8');
 const assets = JSON.parse(manifest);
 
-const tasksList = [
-  {
-    id: 1,
-    title: 'First task',
-    description: 'lorem ipsum',
-  },
-];
-
 const schema = buildSchema(`
       type Query {
-        users(id: Int): [User]
+        users: [User]
+        getUser(id: String!): User
         tasks: [Task]
       }
       
       type Mutation {
-        addTask(task: TaskInput): Task
-        deleteTask(id: Int!): [Task]
+        addTask(task: TaskInput!): [Task]
+        deleteTask(id: String!): [Task]
       }
       
       type User {
-        id: Int!
+        id: String!
         name: String!
         email: String!
         age: Int!
@@ -43,7 +36,7 @@ const schema = buildSchema(`
       }
       
       type Task {
-        id: Int!
+        id: String!
         title: String!
         description: String
       }
@@ -55,55 +48,55 @@ const schema = buildSchema(`
     `);
 
 const root = {
-  users({ id }: { id?: number }) {
-    const userList = [
-      {
-        id: 1,
-        name: 'Mahmoud',
-        email: 'mahmoudwagdi86@gmail.com',
-        age: 37,
-        address: '',
-        profileImageUrl: '',
-      },
-      {
-        id: 2,
-        name: 'Mahmoud1',
-        email: 'mahmoudwagdi861@gmail.com',
-        age: 37,
-        address: '',
-        profileImageUrl: '',
-      },
-      {
-        id: 3,
-        name: 'Mahmoud2',
-        email: 'mahmoudwagdi862@gmail.com',
-        age: 37,
-        address: '',
-        profileImageUrl: '',
-      },
-    ];
-    if (!id) return userList;
+  users: async () => {
+    try {
+      const response = await fetch('http://localhost:3001/users');
+      return await response.json();
+    } catch (error) {
+      if (error instanceof Error) return new GraphQLError(error.message);
+    }
+  },
+  getUser: async ({ id }: { id: string }) => {
+    try {
+      const response = await fetch(`http://localhost:3001/users/${id}`);
+      return await response.json();
+    } catch (error) {
+      if (error instanceof Error) return new GraphQLError(error.message);
+    }
+  },
+  tasks: async () => {
+    try {
+      const response = await fetch('http://localhost:3001/tasks');
+      return await response.json();
+    } catch (error) {
+      if (error instanceof Error) return new GraphQLError(error.message);
+    }
+  },
+  addTask: async ({ task }: { task: TaskInputType }) => {
+    try {
+      await fetch('http://localhost:3001/tasks', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(task),
+      });
 
-    const result = userList.filter((user) => user.id === id);
-    return result.length > 0 ? result : new GraphQLError('User not found');
+      const response = await fetch('http://localhost:3001/tasks');
+      return await response.json();
+    } catch (error) {
+      if (error instanceof Error) return new GraphQLError(error.message);
+    }
   },
-  tasks() {
-    return tasksList;
-  },
-  addTask({ task }: { task: TaskInputType }) {
-    // return [...tasksList, {
-    //   id: tasksList.length,
-    //   ...task
-    // }];
-    return {
-      id: Math.floor(Math.random() * Date.now()),
-      ...task,
-    };
-  },
-  deleteTask({ id }: { id: number }) {
-    if (!tasksList.some((task) => task.id === id)) return new GraphQLError('Task not found');
+  deleteTask: async ({ id }: { id: string }) => {
+    try {
+      await fetch(`http://localhost:3001/tasks/${id}`, { method: 'DELETE' });
 
-    return tasksList.filter((task) => task.id !== id);
+      const response = await fetch('http://localhost:3001/tasks');
+      return await response.json();
+    } catch (error) {
+      if (error instanceof Error) return new GraphQLError(error.message);
+    }
   },
 };
 
