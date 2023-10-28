@@ -1,5 +1,7 @@
+import * as themeMapping from '@client/themes';
 import { ThemeContextType, ThemeOptions } from '@projectTypes/theme';
 import { createContext, FC, ReactNode, useContext, useState } from 'react';
+import { ThemeProvider as StyledThemeProvider } from 'styled-components';
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
@@ -25,5 +27,9 @@ export const ThemeProvider: FC<{ children: ReactNode; initialState: ThemeContext
 
   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   // @ts-ignore
-  return <ThemeContext.Provider value={{ theme, toggleTheme }}>{children}</ThemeContext.Provider>;
+  return (
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
+      <StyledThemeProvider theme={themeMapping[theme]}>{children}</StyledThemeProvider>
+    </ThemeContext.Provider>
+  );
 };

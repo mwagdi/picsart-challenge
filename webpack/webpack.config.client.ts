@@ -36,6 +36,7 @@ const config: Configuration = {
     publicPath: '',
   },
   plugins: [new CleanWebpackPlugin(), new WebpackManifestPlugin({})],
+  devtool: 'inline-source-map',
 };
 
 export default config;
