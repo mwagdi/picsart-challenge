@@ -1020,7 +1020,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/jest-dom@npm:*, @testing-library/jest-dom@npm:^6.1.4":
+"@testing-library/jest-dom@npm:^6.1.4":
   version: 6.1.4
   resolution: "@testing-library/jest-dom@npm:6.1.4"
   dependencies:
@@ -1484,15 +1484,6 @@ __metadata:
   version: 4.2.2
   resolution: "@types/stylis@npm:4.2.2"
   checksum: 8cd30200c4d541664344d66240793641246f6f79239b985d1879c6ff271c569e053b4823d594bbb302d8c697d77582988bd27c0317ebbf2cb6594d22206245e3
-  languageName: node
-  linkType: hard
-
-"@types/testing-library__jest-dom@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "@types/testing-library__jest-dom@npm:6.0.0"
-  dependencies:
-    "@testing-library/jest-dom": "*"
-  checksum: 1b4db1aa3c4225524203b4d1c3b36c7129e9d1e0547e46d2e5283c3ece226a3c16f5f20387cc71b33ab0eecd99d0cf91111bb327e8adb240388d99fb94af7a4d
   languageName: node
   linkType: hard
 
@@ -7513,7 +7504,6 @@ __metadata:
     "@types/node": ^20.8.7
     "@types/react": ^18.2.29
     "@types/react-dom": ^18.2.14
-    "@types/testing-library__jest-dom": ^6.0.0
     "@types/webpack": ^5.28.4
     "@types/webpack-node-externals": ^3.0.3
     "@typescript-eslint/eslint-plugin": ^6.8.0

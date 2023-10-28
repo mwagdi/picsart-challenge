@@ -1,21 +1,40 @@
 import { useMutation, useQuery } from '@apollo/client';
 import { TasksList } from '@client/components';
-import { DELETE_TASK, GET_TASKS } from '@queries/tasks';
-import { useEffect, useState } from 'react';
+import { Form } from '@client/components/Form/Form';
+import { TaskInputType } from '@projectTypes/task';
+import { ADD_TASK, DELETE_TASK, GET_TASKS } from '@queries/tasks';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
   const {
-    data: { tasks: fetchedTasks },
+    data: { tasks },
   } = useQuery(GET_TASKS);
 
-  const [deleteTask, { data }] = useMutation(DELETE_TASK);
+  const [addTask] = useMutation(ADD_TASK, {
+    update(cache, { data: { addTask } }) {
+      cache.writeQuery({
+        query: GET_TASKS,
+        data: {
+          tasks: addTask,
+        },
+      });
+    },
+  });
 
-  const [tasks, setTasks] = useState(fetchedTasks);
+  const [deleteTask] = useMutation(DELETE_TASK, {
+    update(cache, { data: { deleteTask } }) {
+      cache.writeQuery({
+        query: GET_TASKS,
+        data: {
+          tasks: deleteTask,
+        },
+      });
+    },
+  });
 
-  useEffect(() => {
-    if (data) setTasks(data.deleteTask);
-  }, [data]);
+  const onSubmitForm = async (task: TaskInputType) => {
+    await addTask({ variables: { task } });
+  };
 
   const onDeleteClick = async (id: string) => {
     await deleteTask({ variables: { id } });
@@ -23,8 +42,9 @@ const Home = () => {
 
   return (
     <>
+      <Form onSubmit={onSubmitForm} />
       <TasksList onDeleteClick={onDeleteClick} tasks={tasks} />
-      <Link to="users">User list</Link>
+      <Link to="users">Users list</Link>
     </>
   );
 };

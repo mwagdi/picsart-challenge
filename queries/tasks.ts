@@ -19,3 +19,13 @@ export const DELETE_TASK = gql`
     }
   }
 `;
+
+export const ADD_TASK = gql`
+  mutation AddTask($task: TaskInput!) {
+    addTask(task: $task) {
+      id
+      title
+      description
+    }
+  }
+`;
