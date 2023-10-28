@@ -1,3 +1,4 @@
+import { Button } from '@client/components';
 import { TaskType } from '@projectTypes/task';
 
 interface TaskItemProps {
@@ -14,7 +15,9 @@ export const TaskItem = ({ task, onDeleteClick }: TaskItemProps) => {
     <div>
       <h3>{task.title}</h3>
       {task.description && <p>{task.description}</p>}
-      <button onClick={handleDeleteClick}>Delete task</button>
+      <Button variant="danger" onClick={handleDeleteClick}>
+        Delete task
+      </Button>
     </div>
   );
 };

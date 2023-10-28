@@ -19,6 +19,7 @@ const config: Configuration = {
       '@queries': path.resolve(__dirname, '../queries'),
       '@contexts': path.resolve(__dirname, '../contexts'),
       '@projectTypes': path.resolve(__dirname, '../types'),
+      '@utils': path.resolve(__dirname, '../utils'),
     },
   },
   externals: [nodeExternals()],

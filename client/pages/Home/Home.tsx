@@ -1,5 +1,4 @@
-import { TasksList } from '@client/components';
-import { Form } from '@client/components/Form/Form';
+import { Form, TasksList } from '@client/components';
 import { useTasks } from '@client/hooks/useTasks';
 import { TaskInputType } from '@projectTypes/task';
 import { Link } from 'react-router-dom';

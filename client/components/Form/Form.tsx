@@ -1,3 +1,4 @@
+import { Button } from '@client/components';
 import { TaskInputType } from '@projectTypes/task';
 import { ChangeEvent, FormEvent, useState } from 'react';
 
@@ -31,7 +32,7 @@ export const Form = ({ onSubmit }: { onSubmit: (input: TaskInputType) => void })
         value={formInputs.description}
         onChange={handleChange}
       />
-      <button type="submit">Submit</button>
+      <Button type="submit">Submit</Button>
     </StyledForm>
   );
 };

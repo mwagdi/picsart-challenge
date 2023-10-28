@@ -8,6 +8,8 @@ module.exports = {
   moduleNameMapper: {
     '^@client(.*)$': '<rootDir>/client$1',
     '^@queries(.*)$': '<rootDir>/queries$1',
-    '^@types(.*)$': '<rootDir>/types$1',
+    '^@projectTypes(.*)$': '<rootDir>/types$1',
+    '^@contexts(.*)$': '<rootDir>/contexts$1',
+    '^@utils(.*)$': '<rootDir>/utils$1',
   },
 };

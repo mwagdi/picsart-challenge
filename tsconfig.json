@@ -15,6 +15,7 @@
       "@queries/*": ["./queries/*"],
       "@contexts/*": ["./contexts/*"],
       "@projectTypes/*": ["./types/*"],
+      "@utils/*": ["./utils/*"]
     }
   },
   "include": ["**/*.ts", "**/*.tsx"]
