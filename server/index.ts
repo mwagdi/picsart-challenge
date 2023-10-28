@@ -4,7 +4,7 @@ import fs from 'fs';
 
 import { resolvers } from './graphql/resolvers';
 import { schema } from './graphql/schema';
-import { htmlTemplate } from './htmlTemplate';
+import { renderer } from './renderer';
 
 const app = express();
 
@@ -22,8 +22,8 @@ app.use(
   }),
 );
 
-app.get('*', (req, res) => {
-  res.send(htmlTemplate(assets, req.url));
+app.get('*', async (req, res) => {
+  await renderer(assets, req.url, res);
 });
 
 app.listen(3000, () => {

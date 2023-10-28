@@ -1,23 +1,15 @@
-import { useEffect, useState } from 'react';
+import { Suspense, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-
-import { useTheme } from '../../../contexts';
+import { gql, useQuery, useSuspenseQuery } from '@apollo/client';
+import { TaskType } from '../../../types';
+import { TasksList } from '../../components/TasksList/TasksList';
 
 const Home = () => {
-  const [side, setSide] = useState('server');
-  const context = useTheme();
-
-  useEffect(() => {
-    setSide('client');
-  }, []);
-
   return (
-    <div>
-      <div>Home component</div>
-      <div>{side}</div>
-      <button onClick={() => console.log('HJI')}>Click me</button>
+    <Suspense fallback={<div>Loading</div>}>
+      <TasksList />
       <Link to="users">User list</Link>
-    </div>
+    </Suspense>
   );
 };
 

@@ -2,10 +2,12 @@ import { GraphQLError } from 'graphql/error';
 
 import { TaskInputType } from '../../types';
 
+const API_URL = 'http://localhost:3001';
+
 export const resolvers = {
   users: async () => {
     try {
-      const response = await fetch('http://localhost:3001/users');
+      const response = await fetch(`${API_URL}/users`);
       return await response.json();
     } catch (error) {
       if (error instanceof Error) return new GraphQLError(error.message);
@@ -13,7 +15,7 @@ export const resolvers = {
   },
   getUser: async ({ id }: { id: string }) => {
     try {
-      const response = await fetch(`http://localhost:3001/users/${id}`);
+      const response = await fetch(`${API_URL}/users/${id}`);
       return await response.json();
     } catch (error) {
       if (error instanceof Error) return new GraphQLError(error.message);
@@ -21,7 +23,7 @@ export const resolvers = {
   },
   tasks: async () => {
     try {
-      const response = await fetch('http://localhost:3001/tasks');
+      const response = await fetch(`${API_URL}/tasks`);
       return await response.json();
     } catch (error) {
       if (error instanceof Error) return new GraphQLError(error.message);
@@ -29,7 +31,7 @@ export const resolvers = {
   },
   addTask: async ({ task }: { task: TaskInputType }) => {
     try {
-      await fetch('http://localhost:3001/tasks', {
+      await fetch(`${API_URL}/tasks`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -37,7 +39,7 @@ export const resolvers = {
         body: JSON.stringify(task),
       });
 
-      const response = await fetch('http://localhost:3001/tasks');
+      const response = await fetch(`${API_URL}/tasks`);
       return await response.json();
     } catch (error) {
       if (error instanceof Error) return new GraphQLError(error.message);
@@ -45,9 +47,9 @@ export const resolvers = {
   },
   deleteTask: async ({ id }: { id: string }) => {
     try {
-      await fetch(`http://localhost:3001/tasks/${id}`, { method: 'DELETE' });
+      await fetch(`${API_URL}/tasks/${id}`, { method: 'DELETE' });
 
-      const response = await fetch('http://localhost:3001/tasks');
+      const response = await fetch(`${API_URL}/tasks`);
       return await response.json();
     } catch (error) {
       if (error instanceof Error) return new GraphQLError(error.message);
