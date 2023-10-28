@@ -3,11 +3,16 @@ import { TaskType } from '@projectTypes/task';
 
 import { List } from './TasksList.style';
 
-export const TasksList = ({ tasks }: { tasks: TaskType[] }) =>
+interface TasksListProps {
+  tasks: TaskType[];
+  onDeleteClick: (id: string) => void;
+}
+
+export const TasksList = ({ tasks, onDeleteClick }: TasksListProps) =>
   tasks.length ? (
     <List>
       {tasks.map((task: TaskType) => (
-        <TaskItem key={task.id} task={task} />
+        <TaskItem onDeleteClick={onDeleteClick} key={task.id} task={task} />
       ))}
     </List>
   ) : null;
