@@ -17,7 +17,19 @@ declare global {
 
 const client = new ApolloClient({
   uri: 'http://localhost:3000/graphql',
-  cache: new InMemoryCache().restore(window.__APOLLO_STATE__),
+  cache: new InMemoryCache({
+    typePolicies: {
+      Query: {
+        fields: {
+          tasks: {
+            merge(_, incoming) {
+              return [...incoming];
+            },
+          },
+        },
+      },
+    },
+  }).restore(window.__APOLLO_STATE__),
 });
 
 const initialState = window.__INITIAL_STATE__ || { theme: 'light' };
