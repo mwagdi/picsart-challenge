@@ -1,3 +1,4 @@
+import { Navbar } from '@client/components';
 import GlobalStyle from '@client/globalStyle';
 import React, { Suspense } from 'react';
 import { Route, Routes } from 'react-router';
@@ -10,6 +11,7 @@ const App = () => (
   <>
     <GlobalStyle />
     <Suspense>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/users" element={<UserList />} />

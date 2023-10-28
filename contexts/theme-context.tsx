@@ -3,9 +3,10 @@ import { ThemeContextType, ThemeOptions } from '@projectTypes/theme';
 import { createContext, FC, ReactNode, useContext, useState } from 'react';
 import { ThemeProvider as StyledThemeProvider } from 'styled-components';
 
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
-export const ThemeContext = createContext();
+export const ThemeContext = createContext<ThemeContextType>({
+  theme: 'light',
+  toggleTheme: () => {},
+});
 
 export const useTheme = () => {
   const context = useContext(ThemeContext);

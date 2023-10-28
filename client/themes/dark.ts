@@ -11,4 +11,19 @@ export const dark = {
       textColor: '#282828',
     },
   },
+  link: {
+    textColor: '#eaeaea',
+    active: {
+      backgroundColor: '#eaeaea',
+      textColor: '#282828',
+    },
+  },
+  navbar: {
+    border: '#eaeaea',
+    backgroundColor: '#282828',
+  },
+  switcher: {
+    backgroundColor: '#282828',
+    textColor: '#eaeaea',
+  },
 };

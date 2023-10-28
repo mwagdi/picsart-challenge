@@ -11,4 +11,19 @@ export const light = {
       textColor: '#282828',
     },
   },
+  link: {
+    textColor: '#242424',
+    active: {
+      backgroundColor: '#242424',
+      textColor: 'white',
+    },
+  },
+  navbar: {
+    border: '#242424',
+    backgroundColor: 'white',
+  },
+  switcher: {
+    backgroundColor: 'white',
+    textColor: '#242424',
+  },
 };

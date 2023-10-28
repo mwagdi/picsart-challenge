@@ -4,8 +4,13 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
-    background: ${({ theme }) => theme.backgroundColor};
-    color: ${({ theme }) => theme.textColor};
+    height: 100%;
+  }
+  
+  #root {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
   }
 `;
 
