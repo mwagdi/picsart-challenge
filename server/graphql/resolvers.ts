@@ -1,6 +1,5 @@
+import { TaskInputType } from '@projectTypes/task';
 import { GraphQLError } from 'graphql/error';
-
-import { TaskInputType } from '../../types';
 
 const API_URL = 'http://localhost:3001';
 

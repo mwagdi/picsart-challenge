@@ -1,15 +1,17 @@
-import { Suspense, useEffect, useState } from 'react';
+import { useQuery } from '@apollo/client';
+import { TasksList } from '@client/components';
+import { GET_TASKS } from '@queries/tasks';
 import { Link } from 'react-router-dom';
-import { gql, useQuery, useSuspenseQuery } from '@apollo/client';
-import { TaskType } from '../../../types';
-import { TasksList } from '../../components/TasksList/TasksList';
 
 const Home = () => {
+  const {
+    data: { tasks },
+  } = useQuery(GET_TASKS);
   return (
-    <Suspense fallback={<div>Loading</div>}>
-      <TasksList />
+    <>
+      <TasksList tasks={tasks} />
       <Link to="users">User list</Link>
-    </Suspense>
+    </>
   );
 };
 

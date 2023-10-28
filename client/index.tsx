@@ -1,9 +1,9 @@
 import { ApolloClient, ApolloProvider, InMemoryCache, NormalizedCacheObject } from '@apollo/client';
+import { ThemeProvider } from '@contexts/theme-context';
+import { ThemeContextType } from '@projectTypes/theme';
 import { hydrateRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 
-import { ThemeProvider } from '../contexts';
-import { ThemeContextType } from '../types';
 import App from './App';
 
 const rootElement = document.getElementById('root') as HTMLElement;

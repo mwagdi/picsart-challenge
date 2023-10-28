@@ -1,6 +1,5 @@
+import { ThemeContextType, ThemeOptions } from '@projectTypes/theme';
 import { createContext, FC, ReactNode, useContext, useState } from 'react';
-
-import { ThemeContextType, ThemeOptions } from '../types';
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore

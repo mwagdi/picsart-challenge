@@ -11,7 +11,10 @@
     "moduleResolution": "node",
     "module": "commonjs",
     "paths": {
-      "@client/*": ["./client/*"]
+      "@client/*": ["./client/*"],
+      "@queries/*": ["./queries/*"],
+      "@contexts/*": ["./contexts/*"],
+      "@projectTypes/*": ["./types/*"],
     }
   },
   "include": ["**/*.ts", "**/*.tsx"]

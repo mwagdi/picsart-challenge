@@ -1,11 +1,10 @@
 import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client';
 import { renderToStringWithData } from '@apollo/client/react/ssr';
 import App from '@client/App';
+import { ThemeProvider } from '@contexts/theme-context';
+import { ThemeContextType, ThemeOptions } from '@projectTypes/theme';
 import { Response } from 'express';
 import { StaticRouter } from 'react-router-dom/server';
-
-import { ThemeProvider } from '../contexts';
-import { ThemeContextType, ThemeOptions } from '../types';
 
 export const renderer = async (assets: Record<string, string>, url: string, response: Response) => {
   const [_, theme] = url.split('?theme=');
