@@ -4,10 +4,10 @@ import { GET_TASKS } from '@queries/tasks';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
-  console.log();
   const {
     data: { tasks },
   } = useQuery(GET_TASKS);
+
   return (
     <>
       <TasksList tasks={tasks} />
