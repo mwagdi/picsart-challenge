@@ -1,16 +1,24 @@
-import { useQuery } from '@apollo/client';
-import { Main } from '@client/components';
+import { Input, Main } from '@client/components';
+import { useGetUsers } from '@client/hooks/useGetUsers';
 import { UserType } from '@projectTypes/user';
-import { GET_USERS } from '@queries/users';
+import { ChangeEvent, useState } from 'react';
 
 const Users = () => {
-  const { data } = useQuery(GET_USERS);
+  const [search, setSearch] = useState<string>('');
+  const { users } = useGetUsers(search);
+
+  const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
+    setSearch(event.target.value);
+  };
+
   return (
     <Main>
       <h1>Users</h1>
-      <div></div>
+      <div>
+        <Input type="text" name="search" value={search} onChange={handleChange} />
+      </div>
       <ul>
-        {data.users.map((user: UserType) => (
+        {users.map((user: UserType) => (
           <li key={user.id}>{user.name}</li>
         ))}
       </ul>
