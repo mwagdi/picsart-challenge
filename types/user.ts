@@ -6,3 +6,8 @@ export type UserType = {
   address?: string;
   profileImageUrl?: string;
 };
+
+export interface UserSearchParams {
+  _sort?: 'age' | 'name';
+  q?: string;
+}

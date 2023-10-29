@@ -1,12 +1,14 @@
 import { TaskInputType } from '@projectTypes/task';
+import { objectToQueryString } from '@utils/string-helpers';
 import { GraphQLError } from 'graphql/error';
 
 const API_URL = 'http://localhost:3001';
 
 export const resolvers = {
-  users: async ({ q }: { q?: string }) => {
+  users: async ({ q, _sort }: { q?: string; _sort?: 'name' | 'age' }) => {
     try {
-      const response = await fetch(`${API_URL}/users${q ? `?q=${q}` : ''}`);
+      const params = objectToQueryString({ q, _sort });
+      const response = await fetch(`${API_URL}/users?${params}`);
       return await response.json();
     } catch (error) {
       if (error instanceof Error) return new GraphQLError(error.message);
