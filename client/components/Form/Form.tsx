@@ -1,10 +1,10 @@
-import { Button } from '@client/components';
+import { Button, Input } from '@client/components';
 import { TaskInputType } from '@projectTypes/task';
 import { removeEmptyStrings } from '@utils/string-helpers';
 import { instanceOfObjectType } from '@utils/type-helpers';
 import { ChangeEvent, FormEvent, useState } from 'react';
 
-import { ErrorMessage, StyledForm, StyledInput } from './Form.style';
+import { ErrorMessage, StyledForm } from './Form.style';
 
 export const Form = ({ onSubmit }: { onSubmit: (input: TaskInputType) => void }) => {
   const [formInputs, setFormInputs] = useState({
@@ -36,7 +36,7 @@ export const Form = ({ onSubmit }: { onSubmit: (input: TaskInputType) => void })
   return (
     <StyledForm onSubmit={handleSubmit}>
       <h2>Add Task</h2>
-      <StyledInput
+      <Input
         placeholder="Title"
         type="text"
         name="title"
@@ -45,7 +45,7 @@ export const Form = ({ onSubmit }: { onSubmit: (input: TaskInputType) => void })
         hasError={error !== undefined}
       />
       {error && <ErrorMessage>{error}</ErrorMessage>}
-      <StyledInput
+      <Input
         placeholder="Description"
         type="text"
         name="description"
