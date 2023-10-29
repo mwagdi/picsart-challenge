@@ -1,4 +1,4 @@
-export const removeEmptyStrings = (obj: Record<string, string | undefined>) => {
+export const removeEmptyStrings = (obj: Record<string, string | number | undefined>) => {
   let result = {};
 
   for (const key in obj) {
@@ -13,7 +13,7 @@ export const removeEmptyStrings = (obj: Record<string, string | undefined>) => {
   return result;
 };
 
-export const objectToQueryString = (obj: Record<string, string | undefined>) => {
+export const objectToQueryString = (obj: Record<string, string | number | undefined>) => {
   const formattedObject = removeEmptyStrings(obj);
   return Object.keys(formattedObject)
     .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(obj[key] as string))

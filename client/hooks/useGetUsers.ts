@@ -6,7 +6,8 @@ import { useMemo } from 'react';
 export const useGetUsers = (variables: UserSearchParams) => {
   const { data, loading, error } = useQuery(GET_USERS, { variables });
 
-  const users = useMemo(() => data?.users || [], [data]);
+  const users = useMemo(() => data?.users.list || [], [data]);
+  const pages = useMemo(() => data?.users.pages || 1, [data]);
 
-  return { users, loading, error };
+  return { users, pages, loading, error };
 };

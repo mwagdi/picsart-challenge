@@ -5,11 +5,13 @@ import { GraphQLError } from 'graphql/error';
 const API_URL = 'http://localhost:3001';
 
 export const resolvers = {
-  users: async ({ q, _sort }: { q?: string; _sort?: 'name' | 'age' }) => {
+  users: async ({ q, _sort, _page }: { q?: string; _sort?: 'name' | 'age'; _page?: number }) => {
     try {
-      const params = objectToQueryString({ q, _sort });
+      const params = objectToQueryString({ q, _sort, _page });
       const response = await fetch(`${API_URL}/users?${params}`);
-      return await response.json();
+      const list = await response.json();
+      const pages = Math.ceil(parseInt(response.headers.get('x-total-count') || '1') / 10);
+      return { list, pages };
     } catch (error) {
       if (error instanceof Error) return new GraphQLError(error.message);
     }

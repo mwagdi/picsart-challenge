@@ -9,5 +9,6 @@ export type UserType = {
 
 export interface UserSearchParams {
   _sort?: 'age' | 'name';
+  _page?: number;
   q?: string;
 }

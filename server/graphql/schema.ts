@@ -2,7 +2,8 @@ import { buildSchema } from 'graphql/utilities';
 
 export const schema = buildSchema(`
       type Query {
-        users(q: String, _sort: String): [User]
+        users(q: String, _sort: String, _page: Int): UserResponse!
+        pages: Int
         getUser(id: String!): User
         tasks: [Task]
       }
@@ -10,6 +11,11 @@ export const schema = buildSchema(`
       type Mutation {
         addTask(task: TaskInput!): [Task]
         deleteTask(id: String!): [Task]
+      }
+      
+      type UserResponse {
+        list: [User]!
+        pages: Int!
       }
       
       type User {
