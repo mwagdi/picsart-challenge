@@ -6,3 +6,5 @@ export * from './Navbar/Navbar';
 export * from './Switcher/Switcher';
 export * from './TaskItem/TaskItem';
 export * from './TasksList/TasksList';
+export * from './UserList/UserList';
+export * from './UserListItem/UserListItem';

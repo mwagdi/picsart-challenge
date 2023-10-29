@@ -26,4 +26,8 @@ export const light = {
     backgroundColor: 'white',
     textColor: '#242424',
   },
+  userListItem: {
+    backgroundColor: '#242424',
+    textColor: 'white',
+  },
 };

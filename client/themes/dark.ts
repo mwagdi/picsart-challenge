@@ -26,4 +26,8 @@ export const dark = {
     backgroundColor: '#282828',
     textColor: '#eaeaea',
   },
+  userListItem: {
+    backgroundColor: '#eaeaea',
+    textColor: '#282828',
+  },
 };

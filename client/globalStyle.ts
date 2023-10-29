@@ -12,6 +12,11 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     flex-direction: column;
   }
+  
+  a {
+    color: unset;
+    text-decoration: none;
+  }
 `;
 
 export default GlobalStyle;
