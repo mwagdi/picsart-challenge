@@ -30,4 +30,7 @@ export const dark = {
     backgroundColor: '#eaeaea',
     textColor: '#282828',
   },
+  taskListItem: {
+    borderColor: '#eaeaea',
+  },
 };

@@ -30,4 +30,7 @@ export const light = {
     backgroundColor: '#242424',
     textColor: 'white',
   },
+  taskListItem: {
+    borderColor: '#242424',
+  },
 };
