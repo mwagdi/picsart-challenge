@@ -1,4 +1,5 @@
-import { fireEvent, render } from '@testing-library/react';
+import { fireEvent } from '@testing-library/react';
+import { renderWithProviders } from '@utils/testing';
 
 import { TaskItem } from './TaskItem';
 
@@ -13,7 +14,7 @@ describe('TaskItem', () => {
         description: 'lorem ipsum',
       };
 
-      const { container, getByText } = render(<TaskItem onDeleteClick={onDeleteClick} task={task} />);
+      const { container, getByText } = renderWithProviders(<TaskItem onDeleteClick={onDeleteClick} task={task} />);
       expect(getByText('Task 1')).toBeInTheDocument();
       expect(container.querySelector('p')).toBeTruthy();
       expect(getByText('lorem ipsum')).toBeInTheDocument();
@@ -27,7 +28,7 @@ describe('TaskItem', () => {
         title: 'Task 1',
       };
 
-      const { container, getByText } = render(<TaskItem onDeleteClick={onDeleteClick} task={task} />);
+      const { container, getByText } = renderWithProviders(<TaskItem onDeleteClick={onDeleteClick} task={task} />);
       expect(getByText('Task 1')).toBeInTheDocument();
       expect(container.querySelector('p')).toBeFalsy();
     });
@@ -40,7 +41,7 @@ describe('TaskItem', () => {
         title: 'Task 1',
       };
 
-      const { getByRole } = render(<TaskItem onDeleteClick={onDeleteClick} task={task} />);
+      const { getByRole } = renderWithProviders(<TaskItem onDeleteClick={onDeleteClick} task={task} />);
       fireEvent.click(getByRole('button'));
       expect(onDeleteClick).toHaveBeenCalledWith('1');
     });

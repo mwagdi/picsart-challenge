@@ -1,20 +1,32 @@
 import { Button } from '@client/components';
 import { TaskInputType } from '@projectTypes/task';
+import { removeEmptyStrings } from '@utils/string-helpers';
+import { instanceOfObjectType } from '@utils/type-helpers';
 import { ChangeEvent, FormEvent, useState } from 'react';
 
-import { StyledForm, StyledInput } from './Form.style';
+import { ErrorMessage, StyledForm, StyledInput } from './Form.style';
 
 export const Form = ({ onSubmit }: { onSubmit: (input: TaskInputType) => void }) => {
   const [formInputs, setFormInputs] = useState({
     title: '',
     description: '',
   });
+
+  const [error, setError] = useState<undefined | string>(undefined);
+
   const handleSubmit = (event: FormEvent) => {
-    onSubmit(formInputs);
+    const formattedInputs = removeEmptyStrings(formInputs);
+    if (instanceOfObjectType<TaskInputType>(formattedInputs, ['title'])) {
+      onSubmit(formattedInputs);
+      setFormInputs({ title: '', description: '' });
+    } else {
+      setError('Title is required');
+    }
     event.preventDefault();
   };
 
   const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
+    setError(undefined);
     setFormInputs({
       ...formInputs,
       [event.target.name]: event.target.value,
@@ -24,7 +36,15 @@ export const Form = ({ onSubmit }: { onSubmit: (input: TaskInputType) => void })
   return (
     <StyledForm onSubmit={handleSubmit}>
       <h2>Add Task</h2>
-      <StyledInput placeholder="Title" type="text" name="title" value={formInputs.title} onChange={handleChange} />
+      <StyledInput
+        placeholder="Title"
+        type="text"
+        name="title"
+        value={formInputs.title}
+        onChange={handleChange}
+        hasError={error !== undefined}
+      />
+      {error && <ErrorMessage>{error}</ErrorMessage>}
       <StyledInput
         placeholder="Description"
         type="text"
