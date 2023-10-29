@@ -1,6 +1,7 @@
 import * as themeMapping from '@client/themes';
 import { ThemeContextType, ThemeOptions } from '@projectTypes/theme';
 import { createContext, FC, ReactNode, useContext, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { ThemeProvider as StyledThemeProvider } from 'styled-components';
 
 export const ThemeContext = createContext<ThemeContextType>({
@@ -21,13 +22,16 @@ export const ThemeProvider: FC<{ children: ReactNode; initialState: ThemeContext
   initialState,
 }) => {
   const [theme, setTheme] = useState<ThemeOptions>(initialState.theme);
+  const [_, setSearchParams] = useSearchParams();
 
   const toggleTheme = () => {
-    setTheme((currentTheme) => (currentTheme === 'light' ? 'dark' : 'light'));
+    setTheme((currentTheme) => {
+      const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+      setSearchParams({ theme: newTheme });
+      return newTheme;
+    });
   };
 
-  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-  // @ts-ignore
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       <StyledThemeProvider theme={themeMapping[theme]}>{children}</StyledThemeProvider>
