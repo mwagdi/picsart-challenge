@@ -1,5 +1,5 @@
 import { Form, TasksList } from '@client/components';
-import { Main } from '@client/components/Main/Main';
+import { Main } from '@client/components';
 import { useTasks } from '@client/hooks/useTasks';
 import { TaskInputType } from '@projectTypes/task';
 

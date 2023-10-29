@@ -2,7 +2,7 @@ import { buildSchema } from 'graphql/utilities';
 
 export const schema = buildSchema(`
       type Query {
-        users: [User]
+        users(q: String): [User]
         getUser(id: String!): User
         tasks: [Task]
       }

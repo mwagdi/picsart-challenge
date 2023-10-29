@@ -3,6 +3,6 @@ export type UserType = {
   name: string;
   email: string;
   age: number;
-  address: string;
-  profileImageUrl: string;
+  address?: string;
+  profileImageUrl?: string;
 };

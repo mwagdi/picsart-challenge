@@ -4,9 +4,9 @@ import { GraphQLError } from 'graphql/error';
 const API_URL = 'http://localhost:3001';
 
 export const resolvers = {
-  users: async () => {
+  users: async ({ q }: { q?: string }) => {
     try {
-      const response = await fetch(`${API_URL}/users`);
+      const response = await fetch(`${API_URL}/users${q ? `?q=${q}` : ''}`);
       return await response.json();
     } catch (error) {
       if (error instanceof Error) return new GraphQLError(error.message);
