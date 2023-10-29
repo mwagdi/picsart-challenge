@@ -3,9 +3,7 @@ import { TaskInputType } from '@projectTypes/task';
 import { ADD_TASK, DELETE_TASK, GET_TASKS } from '@queries/tasks';
 
 export const useTasks = () => {
-  const {
-    data: { tasks },
-  } = useQuery(GET_TASKS);
+  const { data } = useQuery(GET_TASKS);
 
   const [addTaskMutation] = useMutation(ADD_TASK, {
     update(cache, { data: { addTask } }) {
@@ -38,7 +36,7 @@ export const useTasks = () => {
   };
 
   return {
-    tasks,
+    tasks: data?.tasks || [],
     addTask,
     deleteTask,
   };
