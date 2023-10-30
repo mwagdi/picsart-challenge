@@ -9,8 +9,11 @@ export const Wrapper = styled.div`
 `;
 
 export const ProfileImage = styled.img`
-  border-radius: 50%;
+  width: 200px;
+  aspect-ratio: 1 / 1;
   max-width: 100%;
+  border-radius: 50%;
+  background: #c8c7c7;
 `;
 
 export const BackLink = styled(Link)`

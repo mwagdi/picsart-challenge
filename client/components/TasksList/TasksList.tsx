@@ -8,11 +8,10 @@ interface TasksListProps {
   onDeleteClick: (id: string) => void;
 }
 
-export const TasksList = ({ tasks, onDeleteClick }: TasksListProps) =>
-  tasks.length ? (
-    <List>
-      {tasks.map((task: TaskType) => (
-        <TaskItem onDeleteClick={onDeleteClick} key={task.id} task={task} />
-      ))}
-    </List>
-  ) : null;
+export const TasksList = ({ tasks, onDeleteClick }: TasksListProps) => (
+  <List>
+    {tasks.map((task: TaskType) => (
+      <TaskItem onDeleteClick={onDeleteClick} key={task.id} task={task} />
+    ))}
+  </List>
+);

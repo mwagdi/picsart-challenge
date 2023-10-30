@@ -1,4 +1,4 @@
-import { Button, Input, Pagination, UserList } from '@client/components';
+import { Button, Input, LoadingSpinner, Pagination, UserList } from '@client/components';
 import { useGetUsers } from '@client/hooks/useGetUsers';
 import { UserSearchParams } from '@projectTypes/user';
 import { ChangeEvent, MouseEvent, useState } from 'react';
@@ -44,6 +44,7 @@ const Users = () => {
         <Button onClick={handleClick('name')}>Sort by Name</Button>
         <Button onClick={handleClick('age')}>Sort by Age</Button>
       </SearchContainer>
+      {loading && <LoadingSpinner />}
       {users.length > 0 && <UserList users={users} />}
       {pages > 1 && <Pagination currentPage={search._page} pages={pages} onClick={handlePaginationClick} />}
     </>

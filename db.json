@@ -773,6 +773,11 @@
       "title": "Task title",
       "description": "This is a sample of creating a task",
       "id": "l9EXdNN"
+    },
+    {
+      "title": "Another Example",
+      "description": "This is another example of an added task",
+      "id": "uKt0Pcv"
     }
   ]
 }

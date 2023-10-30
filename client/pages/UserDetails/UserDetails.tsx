@@ -1,4 +1,5 @@
 import { useQuery } from '@apollo/client';
+import { LoadingSpinner } from '@client/components';
 import { GET_USER } from '@queries/users';
 import { useLocation, useParams } from 'react-router';
 
@@ -9,7 +10,7 @@ const UserDetails = () => {
   const { data, loading } = useQuery(GET_USER, { variables: { id } });
   const { search } = useLocation();
 
-  if (loading) return 'Loading';
+  if (loading) return <LoadingSpinner />;
 
   const user = data.getUser;
 

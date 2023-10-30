@@ -1,9 +1,9 @@
-import { Form, TasksList } from '@client/components';
+import { Form, LoadingSpinner, TasksList } from '@client/components';
 import { useTasks } from '@client/hooks/useTasks';
 import { TaskInputType } from '@projectTypes/task';
 
 const Home = () => {
-  const { tasks, addTask, deleteTask } = useTasks();
+  const { tasks, addTask, deleteTask, loading } = useTasks();
 
   const onSubmitForm = async (task: TaskInputType) => {
     await addTask(task);
@@ -16,7 +16,8 @@ const Home = () => {
   return (
     <>
       <Form onSubmit={onSubmitForm} />
-      <TasksList onDeleteClick={onDeleteClick} tasks={tasks} />
+      {loading && <LoadingSpinner />}
+      {tasks.length > 0 && <TasksList onDeleteClick={onDeleteClick} tasks={tasks} />}
     </>
   );
 };

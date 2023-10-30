@@ -1,6 +1,7 @@
 export * from './Button/Button';
 export * from './Form/Form';
 export * from './Input/Input';
+export * from './LoadingSpinner/LoadingSpinner';
 export * from './Main/Main';
 export * from './Navbar/Navbar';
 export * from './Pagination/Pagination';
