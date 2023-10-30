@@ -1,4 +1,4 @@
-import { Button, Input, Main, UserList } from '@client/components';
+import { Button, Input, Main, Pagination, UserList } from '@client/components';
 import { useGetUsers } from '@client/hooks/useGetUsers';
 import { UserSearchParams } from '@projectTypes/user';
 import { ChangeEvent, MouseEvent, useState } from 'react';
@@ -16,6 +16,7 @@ const Users = () => {
   const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
     setSearch({
       ...search,
+      _page: 1,
       q: event.target.value,
     });
   };
@@ -44,15 +45,7 @@ const Users = () => {
         <Button onClick={handleClick('age')}>Sort by Age</Button>
       </SearchContainer>
       {users.length > 0 && <UserList users={users} />}
-      {pages > 1 && (
-        <ul>
-          {[...Array(pages).keys()].map((page) => (
-            <li key={`page_${page + 1}`}>
-              <button onClick={handlePaginationClick(page + 1)}>{page + 1}</button>
-            </li>
-          ))}
-        </ul>
-      )}
+      {pages > 1 && <Pagination pages={pages} onClick={handlePaginationClick} />}
     </Main>
   );
 };
