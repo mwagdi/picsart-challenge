@@ -17,6 +17,24 @@ const GlobalStyle = createGlobalStyle`
     color: unset;
     text-decoration: none;
   }
+
+  .fade-enter {
+    opacity: 0;
+  }
+
+  .fade-enter-active {
+    opacity: 1;
+    transition: opacity 600ms ease-in;
+  }
+
+  .fade-exit {
+    opacity: 0;
+  }
+
+  .fade-exit-active {
+    opacity: 0;
+    transition: opacity 600ms ease-in;
+  }
 `;
 
 export default GlobalStyle;
