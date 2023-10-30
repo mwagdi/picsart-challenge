@@ -1,9 +1,9 @@
 {
   "name": "server",
-  "hash": "c6dc8b8d17e3555eb42d",
+  "hash": "227cc98556bfe06bd280",
   "version": "5.89.0",
-  "time": 396,
-  "builtAt": 1698663386569,
+  "time": 1701,
+  "builtAt": 1698668612228,
   "publicPath": "",
   "outputPath": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/dist",
   "assetsByChunkName": {
@@ -16,8 +16,8 @@
       "type": "asset",
       "name": "server.js",
       "size": 165677,
-      "emitted": true,
-      "comparedForEmit": false,
+      "emitted": false,
+      "comparedForEmit": true,
       "cached": false,
       "info": {
         "javascriptModule": false,
@@ -58,7 +58,7 @@
         "server.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "41eb606122805e4d3d94",
+      "hash": "468246705d5323912c0c",
       "childrenByOrder": {},
       "id": "server",
       "siblings": [],
@@ -73,10 +73,10 @@
           "sizes": {
             "javascript": 1812
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/App.tsx",
           "name": "./client/App.tsx",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/App.tsx",
@@ -157,7 +157,9 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 2:23-27"
+          ],
           "depth": 2
         },
         {
@@ -168,10 +170,10 @@
           "sizes": {
             "javascript": 618
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Button/Button.style.ts",
           "name": "./client/components/Button/Button.style.ts",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Button/Button.style.ts",
@@ -267,7 +269,9 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 2:23-27"
+          ],
           "depth": 5
         },
         {
@@ -278,10 +282,10 @@
           "sizes": {
             "javascript": 983
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Button/Button.tsx",
           "name": "./client/components/Button/Button.tsx",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Button/Button.tsx",
@@ -372,7 +376,9 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 2:14-18"
+          ],
           "depth": 4
         },
         {
@@ -383,10 +389,10 @@
           "sizes": {
             "javascript": 496
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Form/Form.style.ts",
           "name": "./client/components/Form/Form.style.ts",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Form/Form.style.ts",
@@ -482,7 +488,9 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 2:23-27"
+          ],
           "depth": 5
         },
         {
@@ -493,10 +501,10 @@
           "sizes": {
             "javascript": 1919
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Form/Form.tsx",
           "name": "./client/components/Form/Form.tsx",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Form/Form.tsx",
@@ -573,10 +581,10 @@
           "sizes": {
             "javascript": 696
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Input/Input.style.ts",
           "name": "./client/components/Input/Input.style.ts",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Input/Input.style.ts",
@@ -672,7 +680,9 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 2:23-27"
+          ],
           "depth": 5
         },
         {
@@ -683,10 +693,10 @@
           "sizes": {
             "javascript": 326
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Input/Input.tsx",
           "name": "./client/components/Input/Input.tsx",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Input/Input.tsx",
@@ -763,10 +773,10 @@
           "sizes": {
             "javascript": 1981
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/LoadingSpinner/LoadingSpinner.style.ts",
           "name": "./client/components/LoadingSpinner/LoadingSpinner.style.ts",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/LoadingSpinner/LoadingSpinner.style.ts",
@@ -918,7 +928,11 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 2:23-27",
+            "CommonJS bailout: this is used directly at 13:26-30",
+            "CommonJS bailout: this is used directly at 18:20-24"
+          ],
           "depth": 5
         },
         {
@@ -929,10 +943,10 @@
           "sizes": {
             "javascript": 439
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/LoadingSpinner/LoadingSpinner.tsx",
           "name": "./client/components/LoadingSpinner/LoadingSpinner.tsx",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/LoadingSpinner/LoadingSpinner.tsx",
@@ -1009,10 +1023,10 @@
           "sizes": {
             "javascript": 511
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Main/Main.style.ts",
           "name": "./client/components/Main/Main.style.ts",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Main/Main.style.ts",
@@ -1108,7 +1122,9 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 2:23-27"
+          ],
           "depth": 5
         },
         {
@@ -1119,10 +1135,10 @@
           "sizes": {
             "javascript": 323
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Main/Main.tsx",
           "name": "./client/components/Main/Main.tsx",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Main/Main.tsx",
@@ -1199,10 +1215,10 @@
           "sizes": {
             "javascript": 1189
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Navbar/Navbar.style.ts",
           "name": "./client/components/Navbar/Navbar.style.ts",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Navbar/Navbar.style.ts",
@@ -1298,7 +1314,9 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 2:23-27"
+          ],
           "depth": 5
         },
         {
@@ -1309,10 +1327,10 @@
           "sizes": {
             "javascript": 874
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Navbar/Navbar.tsx",
           "name": "./client/components/Navbar/Navbar.tsx",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Navbar/Navbar.tsx",
@@ -1389,10 +1407,10 @@
           "sizes": {
             "javascript": 952
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Pagination/Pagination.style.ts",
           "name": "./client/components/Pagination/Pagination.style.ts",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Pagination/Pagination.style.ts",
@@ -1488,7 +1506,9 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 2:23-27"
+          ],
           "depth": 5
         },
         {
@@ -1499,10 +1519,10 @@
           "sizes": {
             "javascript": 635
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Pagination/Pagination.tsx",
           "name": "./client/components/Pagination/Pagination.tsx",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Pagination/Pagination.tsx",
@@ -1579,10 +1599,10 @@
           "sizes": {
             "javascript": 903
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Switcher/Switcher.style.ts",
           "name": "./client/components/Switcher/Switcher.style.ts",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Switcher/Switcher.style.ts",
@@ -1678,7 +1698,9 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 2:23-27"
+          ],
           "depth": 5
         },
         {
@@ -1689,10 +1711,10 @@
           "sizes": {
             "javascript": 748
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Switcher/Switcher.tsx",
           "name": "./client/components/Switcher/Switcher.tsx",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Switcher/Switcher.tsx",
@@ -1769,10 +1791,10 @@
           "sizes": {
             "javascript": 622
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/TaskItem/TaskItem.style.ts",
           "name": "./client/components/TaskItem/TaskItem.style.ts",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/TaskItem/TaskItem.style.ts",
@@ -1868,7 +1890,9 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 2:23-27"
+          ],
           "depth": 5
         },
         {
@@ -1879,10 +1903,10 @@
           "sizes": {
             "javascript": 825
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/TaskItem/TaskItem.tsx",
           "name": "./client/components/TaskItem/TaskItem.tsx",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/TaskItem/TaskItem.tsx",
@@ -1959,10 +1983,10 @@
           "sizes": {
             "javascript": 729
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/TasksList/TasksList.style.ts",
           "name": "./client/components/TasksList/TasksList.style.ts",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/TasksList/TasksList.style.ts",
@@ -2058,7 +2082,9 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 2:23-27"
+          ],
           "depth": 5
         },
         {
@@ -2069,10 +2095,10 @@
           "sizes": {
             "javascript": 533
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/TasksList/TasksList.tsx",
           "name": "./client/components/TasksList/TasksList.tsx",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/TasksList/TasksList.tsx",
@@ -2149,10 +2175,10 @@
           "sizes": {
             "javascript": 729
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/UserList/UserList.style.ts",
           "name": "./client/components/UserList/UserList.style.ts",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/UserList/UserList.style.ts",
@@ -2248,7 +2274,9 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 2:23-27"
+          ],
           "depth": 5
         },
         {
@@ -2259,10 +2287,10 @@
           "sizes": {
             "javascript": 485
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/UserList/UserList.tsx",
           "name": "./client/components/UserList/UserList.tsx",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/UserList/UserList.tsx",
@@ -2339,10 +2367,10 @@
           "sizes": {
             "javascript": 835
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/UserListItem/UserListItem.style.ts",
           "name": "./client/components/UserListItem/UserListItem.style.ts",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/UserListItem/UserListItem.style.ts",
@@ -2438,7 +2466,9 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 2:23-27"
+          ],
           "depth": 5
         },
         {
@@ -2449,10 +2479,10 @@
           "sizes": {
             "javascript": 689
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/UserListItem/UserListItem.tsx",
           "name": "./client/components/UserListItem/UserListItem.tsx",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/UserListItem/UserListItem.tsx",
@@ -2529,10 +2559,10 @@
           "sizes": {
             "javascript": 1413
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/index.ts",
           "name": "./client/components/index.ts",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/index.ts",
@@ -2926,7 +2956,22 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 2:23-27",
+            "CommonJS bailout: this is used directly at 13:20-24",
+            "CommonJS bailout: exports is used directly at 17:41-48",
+            "CommonJS bailout: exports is used directly at 18:37-44",
+            "CommonJS bailout: exports is used directly at 19:39-46",
+            "CommonJS bailout: exports is used directly at 20:57-64",
+            "CommonJS bailout: exports is used directly at 21:37-44",
+            "CommonJS bailout: exports is used directly at 22:41-48",
+            "CommonJS bailout: exports is used directly at 23:49-56",
+            "CommonJS bailout: exports is used directly at 24:45-52",
+            "CommonJS bailout: exports is used directly at 25:45-52",
+            "CommonJS bailout: exports is used directly at 26:47-54",
+            "CommonJS bailout: exports is used directly at 27:45-52",
+            "CommonJS bailout: exports is used directly at 28:53-60"
+          ],
           "depth": 3
         },
         {
@@ -2937,10 +2982,10 @@
           "sizes": {
             "javascript": 674
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/globalStyle.ts",
           "name": "./client/globalStyle.ts",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/globalStyle.ts",
@@ -3012,10 +3057,10 @@
           "sizes": {
             "javascript": 689
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/hooks/useGetUsers.ts",
           "name": "./client/hooks/useGetUsers.ts",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/hooks/useGetUsers.ts",
@@ -3092,10 +3137,10 @@
           "sizes": {
             "javascript": 2075
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/hooks/useTasks.ts",
           "name": "./client/hooks/useTasks.ts",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/hooks/useTasks.ts",
@@ -3186,7 +3231,9 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 2:17-21"
+          ],
           "depth": 4
         },
         {
@@ -3197,10 +3244,10 @@
           "sizes": {
             "javascript": 1619
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/pages/Home/Home.tsx",
           "name": "./client/pages/Home/Home.tsx",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/pages/Home/Home.tsx",
@@ -3286,7 +3333,9 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 2:17-21"
+          ],
           "depth": 3
         },
         {
@@ -3297,10 +3346,10 @@
           "sizes": {
             "javascript": 868
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/pages/UserDetails/UserDetails.style.ts",
           "name": "./client/pages/UserDetails/UserDetails.style.ts",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/pages/UserDetails/UserDetails.style.ts",
@@ -3391,7 +3440,9 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 2:23-27"
+          ],
           "depth": 4
         },
         {
@@ -3402,10 +3453,10 @@
           "sizes": {
             "javascript": 1340
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/pages/UserDetails/UserDetails.tsx",
           "name": "./client/pages/UserDetails/UserDetails.tsx",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/pages/UserDetails/UserDetails.tsx",
@@ -3477,10 +3528,10 @@
           "sizes": {
             "javascript": 476
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/pages/Users/Users.style.ts",
           "name": "./client/pages/Users/Users.style.ts",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/pages/Users/Users.style.ts",
@@ -3571,7 +3622,9 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 2:23-27"
+          ],
           "depth": 4
         },
         {
@@ -3582,10 +3635,10 @@
           "sizes": {
             "javascript": 1878
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/pages/Users/Users.tsx",
           "name": "./client/pages/Users/Users.tsx",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/pages/Users/Users.tsx",
@@ -3657,10 +3710,10 @@
           "sizes": {
             "javascript": 1041
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/themes/dark.ts",
           "name": "./client/themes/dark.ts",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/themes/dark.ts",
@@ -3737,10 +3790,10 @@
           "sizes": {
             "javascript": 842
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/themes/index.ts",
           "name": "./client/themes/index.ts",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/themes/index.ts",
@@ -3882,7 +3935,12 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 2:23-27",
+            "CommonJS bailout: this is used directly at 13:20-24",
+            "CommonJS bailout: exports is used directly at 17:32-39",
+            "CommonJS bailout: exports is used directly at 18:33-40"
+          ],
           "depth": 3
         },
         {
@@ -3893,10 +3951,10 @@
           "sizes": {
             "javascript": 1031
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/themes/light.ts",
           "name": "./client/themes/light.ts",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/themes/light.ts",
@@ -3973,10 +4031,10 @@
           "sizes": {
             "javascript": 2505
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/contexts/theme-context.tsx",
           "name": "./contexts/theme-context.tsx",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/contexts/theme-context.tsx",
@@ -4155,7 +4213,11 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 2:23-27",
+            "CommonJS bailout: this is used directly at 13:26-30",
+            "CommonJS bailout: this is used directly at 18:20-24"
+          ],
           "depth": 2
         },
         {
@@ -4166,10 +4228,10 @@
           "sizes": {
             "javascript": 629
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/queries/tasks.ts",
           "name": "./queries/tasks.ts",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/queries/tasks.ts",
@@ -4253,10 +4315,10 @@
           "sizes": {
             "javascript": 589
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/queries/users.ts",
           "name": "./queries/users.ts",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/queries/users.ts",
@@ -4348,10 +4410,10 @@
           "sizes": {
             "javascript": 3261
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/server/graphql/resolvers.ts",
           "name": "./server/graphql/resolvers.ts",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/server/graphql/resolvers.ts",
@@ -4427,7 +4489,9 @@
           ],
           "usedExports": null,
           "providedExports": null,
-          "optimizationBailout": [],
+          "optimizationBailout": [
+            "CommonJS bailout: this is used directly at 2:17-21"
+          ],
           "depth": 1
         },
         {
@@ -4438,10 +4502,10 @@
           "sizes": {
             "javascript": 948
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/server/graphql/schema.ts",
           "name": "./server/graphql/schema.ts",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/server/graphql/schema.ts",
@@ -4739,10 +4803,10 @@
           "sizes": {
             "javascript": 749
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/utils/string-helpers.ts",
           "name": "./utils/string-helpers.ts",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/utils/string-helpers.ts",
@@ -4838,10 +4902,10 @@
           "sizes": {
             "javascript": 342
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/utils/type-helpers.ts",
           "name": "./utils/type-helpers.ts",
           "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/utils/type-helpers.ts",
@@ -4923,10 +4987,10 @@
           "sizes": {
             "javascript": 42
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "external commonjs \"@apollo/client\"",
           "name": "external \"@apollo/client\"",
           "nameForCondition": null,
@@ -5059,10 +5123,10 @@
           "sizes": {
             "javascript": 42
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "external commonjs \"@apollo/client/react/ssr\"",
           "name": "external \"@apollo/client/react/ssr\"",
           "nameForCondition": null,
@@ -5125,10 +5189,10 @@
           "sizes": {
             "javascript": 42
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "external commonjs \"express\"",
           "name": "external \"express\"",
           "nameForCondition": null,
@@ -5186,10 +5250,10 @@
           "sizes": {
             "javascript": 42
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "external commonjs \"express-graphql\"",
           "name": "external \"express-graphql\"",
           "nameForCondition": null,
@@ -5247,10 +5311,10 @@
           "sizes": {
             "javascript": 42
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "external node-commonjs \"fs\"",
           "name": "external \"fs\"",
           "nameForCondition": null,
@@ -5308,10 +5372,10 @@
           "sizes": {
             "javascript": 42
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "external commonjs \"graphql/error\"",
           "name": "external \"graphql/error\"",
           "nameForCondition": null,
@@ -5374,10 +5438,10 @@
           "sizes": {
             "javascript": 42
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "external commonjs \"graphql/utilities\"",
           "name": "external \"graphql/utilities\"",
           "nameForCondition": null,
@@ -5440,10 +5504,10 @@
           "sizes": {
             "javascript": 42
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "external commonjs \"react\"",
           "name": "external \"react\"",
           "nameForCondition": null,
@@ -5567,10 +5631,10 @@
           "sizes": {
             "javascript": 42
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "external commonjs \"react-router\"",
           "name": "external \"react-router\"",
           "nameForCondition": null,
@@ -5666,10 +5730,10 @@
           "sizes": {
             "javascript": 42
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "external commonjs \"react-router-dom\"",
           "name": "external \"react-router-dom\"",
           "nameForCondition": null,
@@ -5779,10 +5843,10 @@
           "sizes": {
             "javascript": 42
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "external commonjs \"react-router-dom/server\"",
           "name": "external \"react-router-dom/server\"",
           "nameForCondition": null,
@@ -5845,10 +5909,10 @@
           "sizes": {
             "javascript": 42
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "external commonjs \"react-transition-group\"",
           "name": "external \"react-transition-group\"",
           "nameForCondition": null,
@@ -5916,10 +5980,10 @@
           "sizes": {
             "javascript": 42
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "external commonjs \"react/jsx-runtime\"",
           "name": "external \"react/jsx-runtime\"",
           "nameForCondition": null,
@@ -6220,10 +6284,10 @@
           "sizes": {
             "javascript": 42
           },
-          "built": false,
-          "codeGenerated": false,
+          "built": true,
+          "codeGenerated": true,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "external commonjs \"styled-components\"",
           "name": "external \"styled-components\"",
           "nameForCondition": null,
@@ -6637,10 +6701,10 @@
       "sizes": {
         "javascript": 42
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "external commonjs \"express\"",
       "name": "external \"express\"",
       "nameForCondition": null,
@@ -6697,10 +6761,10 @@
       "sizes": {
         "javascript": 42
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "external commonjs \"express-graphql\"",
       "name": "external \"express-graphql\"",
       "nameForCondition": null,
@@ -6757,10 +6821,10 @@
       "sizes": {
         "javascript": 42
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "external node-commonjs \"fs\"",
       "name": "external \"fs\"",
       "nameForCondition": null,
@@ -6817,10 +6881,10 @@
       "sizes": {
         "javascript": 3261
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/server/graphql/resolvers.ts",
       "name": "./server/graphql/resolvers.ts",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/server/graphql/resolvers.ts",
@@ -6895,7 +6959,9 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 2:17-21"
+      ],
       "depth": 1
     },
     {
@@ -6906,10 +6972,10 @@
       "sizes": {
         "javascript": 948
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/server/graphql/schema.ts",
       "name": "./server/graphql/schema.ts",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/server/graphql/schema.ts",
@@ -7090,10 +7156,10 @@
       "sizes": {
         "javascript": 749
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/utils/string-helpers.ts",
       "name": "./utils/string-helpers.ts",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/utils/string-helpers.ts",
@@ -7188,10 +7254,10 @@
       "sizes": {
         "javascript": 42
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "external commonjs \"graphql/error\"",
       "name": "external \"graphql/error\"",
       "nameForCondition": null,
@@ -7253,10 +7319,10 @@
       "sizes": {
         "javascript": 42
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "external commonjs \"graphql/utilities\"",
       "name": "external \"graphql/utilities\"",
       "nameForCondition": null,
@@ -7318,10 +7384,10 @@
       "sizes": {
         "javascript": 42
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "external commonjs \"react/jsx-runtime\"",
       "name": "external \"react/jsx-runtime\"",
       "nameForCondition": null,
@@ -7621,10 +7687,10 @@
       "sizes": {
         "javascript": 42
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "external commonjs \"@apollo/client\"",
       "name": "external \"@apollo/client\"",
       "nameForCondition": null,
@@ -7756,10 +7822,10 @@
       "sizes": {
         "javascript": 42
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "external commonjs \"@apollo/client/react/ssr\"",
       "name": "external \"@apollo/client/react/ssr\"",
       "nameForCondition": null,
@@ -7821,10 +7887,10 @@
       "sizes": {
         "javascript": 1812
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/App.tsx",
       "name": "./client/App.tsx",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/App.tsx",
@@ -7904,7 +7970,9 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 2:23-27"
+      ],
       "depth": 2
     },
     {
@@ -7915,10 +7983,10 @@
       "sizes": {
         "javascript": 42
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "external commonjs \"styled-components\"",
       "name": "external \"styled-components\"",
       "nameForCondition": null,
@@ -8204,10 +8272,10 @@
       "sizes": {
         "javascript": 2505
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/contexts/theme-context.tsx",
       "name": "./contexts/theme-context.tsx",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/contexts/theme-context.tsx",
@@ -8385,7 +8453,11 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 2:23-27",
+        "CommonJS bailout: this is used directly at 13:26-30",
+        "CommonJS bailout: this is used directly at 18:20-24"
+      ],
       "depth": 2
     },
     {
@@ -8396,10 +8468,10 @@
       "sizes": {
         "javascript": 42
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "external commonjs \"react-router-dom/server\"",
       "name": "external \"react-router-dom/server\"",
       "nameForCondition": null,
@@ -8461,10 +8533,10 @@
       "sizes": {
         "javascript": 1413
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/index.ts",
       "name": "./client/components/index.ts",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/index.ts",
@@ -8857,7 +8929,22 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 2:23-27",
+        "CommonJS bailout: this is used directly at 13:20-24",
+        "CommonJS bailout: exports is used directly at 17:41-48",
+        "CommonJS bailout: exports is used directly at 18:37-44",
+        "CommonJS bailout: exports is used directly at 19:39-46",
+        "CommonJS bailout: exports is used directly at 20:57-64",
+        "CommonJS bailout: exports is used directly at 21:37-44",
+        "CommonJS bailout: exports is used directly at 22:41-48",
+        "CommonJS bailout: exports is used directly at 23:49-56",
+        "CommonJS bailout: exports is used directly at 24:45-52",
+        "CommonJS bailout: exports is used directly at 25:45-52",
+        "CommonJS bailout: exports is used directly at 26:47-54",
+        "CommonJS bailout: exports is used directly at 27:45-52",
+        "CommonJS bailout: exports is used directly at 28:53-60"
+      ],
       "depth": 3
     },
     {
@@ -8868,10 +8955,10 @@
       "sizes": {
         "javascript": 42
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "external commonjs \"react\"",
       "name": "external \"react\"",
       "nameForCondition": null,
@@ -8994,10 +9081,10 @@
       "sizes": {
         "javascript": 42
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "external commonjs \"react-router\"",
       "name": "external \"react-router\"",
       "nameForCondition": null,
@@ -9092,10 +9179,10 @@
       "sizes": {
         "javascript": 42
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "external commonjs \"react-router-dom\"",
       "name": "external \"react-router-dom\"",
       "nameForCondition": null,
@@ -9204,10 +9291,10 @@
       "sizes": {
         "javascript": 842
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/themes/index.ts",
       "name": "./client/themes/index.ts",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/themes/index.ts",
@@ -9348,7 +9435,12 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 2:23-27",
+        "CommonJS bailout: this is used directly at 13:20-24",
+        "CommonJS bailout: exports is used directly at 17:32-39",
+        "CommonJS bailout: exports is used directly at 18:33-40"
+      ],
       "depth": 3
     },
     {
@@ -9359,10 +9451,10 @@
       "sizes": {
         "javascript": 674
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/globalStyle.ts",
       "name": "./client/globalStyle.ts",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/globalStyle.ts",
@@ -9433,10 +9525,10 @@
       "sizes": {
         "javascript": 1878
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/pages/Users/Users.tsx",
       "name": "./client/pages/Users/Users.tsx",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/pages/Users/Users.tsx",
@@ -9507,10 +9599,10 @@
       "sizes": {
         "javascript": 42
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "external commonjs \"react-transition-group\"",
       "name": "external \"react-transition-group\"",
       "nameForCondition": null,
@@ -9577,10 +9669,10 @@
       "sizes": {
         "javascript": 1619
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/pages/Home/Home.tsx",
       "name": "./client/pages/Home/Home.tsx",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/pages/Home/Home.tsx",
@@ -9665,7 +9757,9 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 2:17-21"
+      ],
       "depth": 3
     },
     {
@@ -9676,10 +9770,10 @@
       "sizes": {
         "javascript": 1340
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/pages/UserDetails/UserDetails.tsx",
       "name": "./client/pages/UserDetails/UserDetails.tsx",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/pages/UserDetails/UserDetails.tsx",
@@ -9750,10 +9844,10 @@
       "sizes": {
         "javascript": 983
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Button/Button.tsx",
       "name": "./client/components/Button/Button.tsx",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Button/Button.tsx",
@@ -9843,7 +9937,9 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 2:14-18"
+      ],
       "depth": 4
     },
     {
@@ -9854,10 +9950,10 @@
       "sizes": {
         "javascript": 1919
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Form/Form.tsx",
       "name": "./client/components/Form/Form.tsx",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Form/Form.tsx",
@@ -9933,10 +10029,10 @@
       "sizes": {
         "javascript": 326
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Input/Input.tsx",
       "name": "./client/components/Input/Input.tsx",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Input/Input.tsx",
@@ -10012,10 +10108,10 @@
       "sizes": {
         "javascript": 439
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/LoadingSpinner/LoadingSpinner.tsx",
       "name": "./client/components/LoadingSpinner/LoadingSpinner.tsx",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/LoadingSpinner/LoadingSpinner.tsx",
@@ -10091,10 +10187,10 @@
       "sizes": {
         "javascript": 323
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Main/Main.tsx",
       "name": "./client/components/Main/Main.tsx",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Main/Main.tsx",
@@ -10170,10 +10266,10 @@
       "sizes": {
         "javascript": 874
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Navbar/Navbar.tsx",
       "name": "./client/components/Navbar/Navbar.tsx",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Navbar/Navbar.tsx",
@@ -10249,10 +10345,10 @@
       "sizes": {
         "javascript": 635
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Pagination/Pagination.tsx",
       "name": "./client/components/Pagination/Pagination.tsx",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Pagination/Pagination.tsx",
@@ -10328,10 +10424,10 @@
       "sizes": {
         "javascript": 748
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Switcher/Switcher.tsx",
       "name": "./client/components/Switcher/Switcher.tsx",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Switcher/Switcher.tsx",
@@ -10407,10 +10503,10 @@
       "sizes": {
         "javascript": 1041
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/themes/dark.ts",
       "name": "./client/themes/dark.ts",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/themes/dark.ts",
@@ -10486,10 +10582,10 @@
       "sizes": {
         "javascript": 1031
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/themes/light.ts",
       "name": "./client/themes/light.ts",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/themes/light.ts",
@@ -10565,10 +10661,10 @@
       "sizes": {
         "javascript": 825
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/TaskItem/TaskItem.tsx",
       "name": "./client/components/TaskItem/TaskItem.tsx",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/TaskItem/TaskItem.tsx",
@@ -10644,10 +10740,10 @@
       "sizes": {
         "javascript": 533
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/TasksList/TasksList.tsx",
       "name": "./client/components/TasksList/TasksList.tsx",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/TasksList/TasksList.tsx",
@@ -10723,10 +10819,10 @@
       "sizes": {
         "javascript": 485
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/UserList/UserList.tsx",
       "name": "./client/components/UserList/UserList.tsx",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/UserList/UserList.tsx",
@@ -10802,10 +10898,10 @@
       "sizes": {
         "javascript": 689
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/UserListItem/UserListItem.tsx",
       "name": "./client/components/UserListItem/UserListItem.tsx",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/UserListItem/UserListItem.tsx",
@@ -10881,10 +10977,10 @@
       "sizes": {
         "javascript": 689
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/hooks/useGetUsers.ts",
       "name": "./client/hooks/useGetUsers.ts",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/hooks/useGetUsers.ts",
@@ -10960,10 +11056,10 @@
       "sizes": {
         "javascript": 589
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/queries/users.ts",
       "name": "./queries/users.ts",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/queries/users.ts",
@@ -11054,10 +11150,10 @@
       "sizes": {
         "javascript": 476
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/pages/Users/Users.style.ts",
       "name": "./client/pages/Users/Users.style.ts",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/pages/Users/Users.style.ts",
@@ -11147,7 +11243,9 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 2:23-27"
+      ],
       "depth": 4
     },
     {
@@ -11158,10 +11256,10 @@
       "sizes": {
         "javascript": 2075
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/hooks/useTasks.ts",
       "name": "./client/hooks/useTasks.ts",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/hooks/useTasks.ts",
@@ -11251,7 +11349,9 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 2:17-21"
+      ],
       "depth": 4
     },
     {
@@ -11262,10 +11362,10 @@
       "sizes": {
         "javascript": 868
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/pages/UserDetails/UserDetails.style.ts",
       "name": "./client/pages/UserDetails/UserDetails.style.ts",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/pages/UserDetails/UserDetails.style.ts",
@@ -11355,7 +11455,9 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 2:23-27"
+      ],
       "depth": 4
     },
     {
@@ -11366,10 +11468,10 @@
       "sizes": {
         "javascript": 618
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Button/Button.style.ts",
       "name": "./client/components/Button/Button.style.ts",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Button/Button.style.ts",
@@ -11464,7 +11566,9 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 2:23-27"
+      ],
       "depth": 5
     },
     {
@@ -11475,10 +11579,10 @@
       "sizes": {
         "javascript": 342
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/utils/type-helpers.ts",
       "name": "./utils/type-helpers.ts",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/utils/type-helpers.ts",
@@ -11559,10 +11663,10 @@
       "sizes": {
         "javascript": 496
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Form/Form.style.ts",
       "name": "./client/components/Form/Form.style.ts",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Form/Form.style.ts",
@@ -11657,7 +11761,9 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 2:23-27"
+      ],
       "depth": 5
     },
     {
@@ -11668,10 +11774,10 @@
       "sizes": {
         "javascript": 696
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Input/Input.style.ts",
       "name": "./client/components/Input/Input.style.ts",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Input/Input.style.ts",
@@ -11766,7 +11872,9 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 2:23-27"
+      ],
       "depth": 5
     },
     {
@@ -11777,10 +11885,10 @@
       "sizes": {
         "javascript": 1981
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/LoadingSpinner/LoadingSpinner.style.ts",
       "name": "./client/components/LoadingSpinner/LoadingSpinner.style.ts",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/LoadingSpinner/LoadingSpinner.style.ts",
@@ -11931,7 +12039,11 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 2:23-27",
+        "CommonJS bailout: this is used directly at 13:26-30",
+        "CommonJS bailout: this is used directly at 18:20-24"
+      ],
       "depth": 5
     },
     {
@@ -11942,10 +12054,10 @@
       "sizes": {
         "javascript": 511
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Main/Main.style.ts",
       "name": "./client/components/Main/Main.style.ts",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Main/Main.style.ts",
@@ -12040,7 +12152,9 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 2:23-27"
+      ],
       "depth": 5
     },
     {
@@ -12051,10 +12165,10 @@
       "sizes": {
         "javascript": 1189
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Navbar/Navbar.style.ts",
       "name": "./client/components/Navbar/Navbar.style.ts",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Navbar/Navbar.style.ts",
@@ -12149,7 +12263,9 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 2:23-27"
+      ],
       "depth": 5
     },
     {
@@ -12160,10 +12276,10 @@
       "sizes": {
         "javascript": 952
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Pagination/Pagination.style.ts",
       "name": "./client/components/Pagination/Pagination.style.ts",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Pagination/Pagination.style.ts",
@@ -12258,7 +12374,9 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 2:23-27"
+      ],
       "depth": 5
     },
     {
@@ -12269,10 +12387,10 @@
       "sizes": {
         "javascript": 903
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Switcher/Switcher.style.ts",
       "name": "./client/components/Switcher/Switcher.style.ts",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/Switcher/Switcher.style.ts",
@@ -12367,7 +12485,9 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 2:23-27"
+      ],
       "depth": 5
     },
     {
@@ -12378,10 +12498,10 @@
       "sizes": {
         "javascript": 622
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/TaskItem/TaskItem.style.ts",
       "name": "./client/components/TaskItem/TaskItem.style.ts",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/TaskItem/TaskItem.style.ts",
@@ -12476,7 +12596,9 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 2:23-27"
+      ],
       "depth": 5
     },
     {
@@ -12487,10 +12609,10 @@
       "sizes": {
         "javascript": 729
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/TasksList/TasksList.style.ts",
       "name": "./client/components/TasksList/TasksList.style.ts",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/TasksList/TasksList.style.ts",
@@ -12585,7 +12707,9 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 2:23-27"
+      ],
       "depth": 5
     },
     {
@@ -12596,10 +12720,10 @@
       "sizes": {
         "javascript": 729
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/UserList/UserList.style.ts",
       "name": "./client/components/UserList/UserList.style.ts",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/UserList/UserList.style.ts",
@@ -12694,7 +12818,9 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 2:23-27"
+      ],
       "depth": 5
     },
     {
@@ -12705,10 +12831,10 @@
       "sizes": {
         "javascript": 835
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/UserListItem/UserListItem.style.ts",
       "name": "./client/components/UserListItem/UserListItem.style.ts",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/client/components/UserListItem/UserListItem.style.ts",
@@ -12803,7 +12929,9 @@
       ],
       "usedExports": null,
       "providedExports": null,
-      "optimizationBailout": [],
+      "optimizationBailout": [
+        "CommonJS bailout: this is used directly at 2:23-27"
+      ],
       "depth": 5
     },
     {
@@ -12814,10 +12942,10 @@
       "sizes": {
         "javascript": 629
       },
-      "built": false,
-      "codeGenerated": false,
+      "built": true,
+      "codeGenerated": true,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/node_modules/ts-loader/index.js??ruleSet[1].rules[0]!/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/queries/tasks.ts",
       "name": "./queries/tasks.ts",
       "nameForCondition": "/Users/mahmoudelawadi/Documents/Projects/picsart-challenge/queries/tasks.ts",

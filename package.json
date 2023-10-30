@@ -5,10 +5,12 @@
   "scripts": {
     "analyze:client": "webpack-bundle-analyzer client-bundle.json",
     "analyze:server": "webpack-bundle-analyzer server-bundle.json",
-    "dev": "run-p dev:api dev:build-client dev:build-server dev:server",
+    "dev": "run-p dev:api dev:build:client:watch dev:build:server:watch dev:server",
     "dev:server": "nodemon --watch dist --exec \"node dist/server.js\"",
-    "dev:build-server": "webpack --config webpack/webpack.config.server.ts --watch",
-    "dev:build-client": "webpack --config webpack/webpack.config.client.ts --watch",
+    "dev:build:server": "webpack --config webpack/webpack.config.server.ts",
+    "dev:build:server:watch": "yarn dev:build:server --watch",
+    "dev:build:client": "webpack --config webpack/webpack.config.client.ts",
+    "dev:build:client:watch": "yarn dev:build:client --watch",
     "dev:api": "json-server --watch db.json --port 3001",
     "test": "jest",
     "test:watch": "jest --watch"
