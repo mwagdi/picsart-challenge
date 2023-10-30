@@ -42,7 +42,7 @@ export const Form = ({ onSubmit }: { onSubmit: (input: TaskInputType) => void })
         name="title"
         value={formInputs.title}
         onChange={handleChange}
-        hasError={error !== undefined}
+        $hasError={error !== undefined}
       />
       {error && <ErrorMessage>{error}</ErrorMessage>}
       <Input

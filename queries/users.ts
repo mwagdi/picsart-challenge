@@ -13,3 +13,15 @@ export const GET_USERS = gql`
     }
   }
 `;
+
+export const GET_USER = gql`
+  query GetUser($id: String!) {
+    getUser(id: $id) {
+      name
+      email
+      age
+      address
+      profileImageUrl
+    }
+  }
+`;

@@ -770,42 +770,9 @@
       "description": "Id anim culpa veniam tempor pariatur magna elit irure. Adipisicing aliquip laborum magna culpa sint veniam elit officia qui commodo anim qui non tempor. Anim qui ut et sunt mollit.\r\n"
     },
     {
-      "title": "Test title",
-      "description": "Test description",
-      "id": "wXnNZNs"
-    },
-    {
-      "title": "Hello",
-      "description": "World",
-      "id": "ExOlwvD"
-    },
-    {
-      "title": "Testing",
-      "description": "Testing the hook",
-      "id": "Hez816C"
-    },
-    {
-      "title": "No description",
-      "description": "",
-      "id": "Nd5sbt6"
-    },
-    {
-      "title": "fgf",
-      "id": "btS5SxX"
-    },
-    {
-      "title": "Hello",
-      "description": "World",
-      "id": "mLs2NMA"
-    },
-    {
-      "title": "Hello",
-      "id": "eMvicKQ"
-    },
-    {
-      "title": "kl;/i",
-      "description": "iou;io;",
-      "id": "xZoPzio"
+      "title": "Task title",
+      "description": "This is a sample of creating a task",
+      "id": "l9EXdNN"
     }
   ]
 }

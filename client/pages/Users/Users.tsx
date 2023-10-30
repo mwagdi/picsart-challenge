@@ -1,4 +1,4 @@
-import { Button, Input, Main, Pagination, UserList } from '@client/components';
+import { Button, Input, Pagination, UserList } from '@client/components';
 import { useGetUsers } from '@client/hooks/useGetUsers';
 import { UserSearchParams } from '@projectTypes/user';
 import { ChangeEvent, MouseEvent, useState } from 'react';
@@ -11,7 +11,7 @@ const Users = () => {
     _page: 1,
     q: '',
   });
-  const { users, pages } = useGetUsers(search);
+  const { users, pages, loading } = useGetUsers(search);
 
   const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
     setSearch({
@@ -37,7 +37,7 @@ const Users = () => {
   };
 
   return (
-    <Main>
+    <>
       <h1>Users</h1>
       <SearchContainer>
         <Input placeholder="Search for users..." type="text" name="search" value={search.q} onChange={handleChange} />
@@ -46,7 +46,7 @@ const Users = () => {
       </SearchContainer>
       {users.length > 0 && <UserList users={users} />}
       {pages > 1 && <Pagination currentPage={search._page} pages={pages} onClick={handlePaginationClick} />}
-    </Main>
+    </>
   );
 };
 

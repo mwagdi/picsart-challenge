@@ -1,5 +1,4 @@
 import { Form, TasksList } from '@client/components';
-import { Main } from '@client/components';
 import { useTasks } from '@client/hooks/useTasks';
 import { TaskInputType } from '@projectTypes/task';
 
@@ -15,10 +14,10 @@ const Home = () => {
   };
 
   return (
-    <Main>
+    <>
       <Form onSubmit={onSubmitForm} />
       <TasksList onDeleteClick={onDeleteClick} tasks={tasks} />
-    </Main>
+    </>
   );
 };
 
