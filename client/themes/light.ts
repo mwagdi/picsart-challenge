@@ -33,4 +33,11 @@ export const light = {
   taskListItem: {
     borderColor: '#242424',
   },
+  pagination: {
+    textColor: '#242424',
+    disabled: {
+      textColor: 'white',
+      backgroundColor: '#242424',
+    },
+  },
 };

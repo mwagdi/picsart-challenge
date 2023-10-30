@@ -45,7 +45,7 @@ const Users = () => {
         <Button onClick={handleClick('age')}>Sort by Age</Button>
       </SearchContainer>
       {users.length > 0 && <UserList users={users} />}
-      {pages > 1 && <Pagination pages={pages} onClick={handlePaginationClick} />}
+      {pages > 1 && <Pagination currentPage={search._page} pages={pages} onClick={handlePaginationClick} />}
     </Main>
   );
 };

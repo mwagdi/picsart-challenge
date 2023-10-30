@@ -33,4 +33,11 @@ export const dark = {
   taskListItem: {
     borderColor: '#eaeaea',
   },
+  pagination: {
+    textColor: '#eaeaea',
+    disabled: {
+      textColor: '#282828',
+      backgroundColor: '#eaeaea',
+    },
+  },
 };
