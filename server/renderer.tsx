@@ -53,6 +53,7 @@ export const renderer = async (assets: Record<string, string>, url: string, resp
                     window.__INITIAL_STATE__ = ${JSON.stringify(initialState)};
                     window.__APOLLO_STATE__=${JSON.stringify(apolloState).replace(/</g, '\\u003c')};
                 </script>
+                <script src="${assets['vendor.js']}"></script>
                 <script src="${assets['main.js']}"></script>
             </body>
         </html>

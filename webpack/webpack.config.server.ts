@@ -1,5 +1,6 @@
 import path from 'path';
 import { Configuration } from 'webpack';
+import { BundleAnalyzerPlugin } from 'webpack-bundle-analyzer';
 import nodeExternals from 'webpack-node-externals';
 
 const config: Configuration = {
@@ -39,6 +40,14 @@ const config: Configuration = {
     ],
   },
   devtool: 'inline-source-map',
+  plugins: [
+    new BundleAnalyzerPlugin({
+      openAnalyzer: false,
+      analyzerMode: 'json',
+      statsFilename: '../server-bundle.json',
+      generateStatsFile: true,
+    }),
+  ],
 };
 
 export default config;
